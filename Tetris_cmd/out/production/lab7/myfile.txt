@@ -1,0 +1,10 @@
+Shenzhengyu 88800
+Neyman 660
+Alice   380
+Bob 150
+Donald  30
+James   10
+Kobe    10
+Eminem  10
+Sherlock    10
+Watson	10

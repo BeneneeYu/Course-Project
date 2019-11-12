@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ZipPJ:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ZipPJ_jar</output-path>
+    <root id="archive" name="ZipPJ.jar">
+      <element id="module-output" name="ZipPJ" />
+    </root>
+  </artifact>
+</component>
