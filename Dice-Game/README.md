@@ -1,0 +1,1 @@
+Continuous integration of dice game implemented by C++.

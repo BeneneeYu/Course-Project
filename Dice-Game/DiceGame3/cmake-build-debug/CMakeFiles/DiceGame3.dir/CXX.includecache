@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Programming/C++_programming/DiceGame3/Dice.h
+
+D:/Programming/C++_programming/DiceGame3/Game.cpp
+iostream
+-
+Game.h
+D:/Programming/C++_programming/DiceGame3/Game.h
+Player.h
+D:/Programming/C++_programming/DiceGame3/Player.h
+
+D:/Programming/C++_programming/DiceGame3/Game.h
+Player.h
+D:/Programming/C++_programming/DiceGame3/Player.h
+string
+-
+
+D:/Programming/C++_programming/DiceGame3/Player.h
+Dice.h
+D:/Programming/C++_programming/DiceGame3/Dice.h
+string
+-
+
+D:/Programming/C++_programming/DiceGame3/Service.cpp
+Service.h
+D:/Programming/C++_programming/DiceGame3/Service.h
+Game.h
+D:/Programming/C++_programming/DiceGame3/Game.h
+Player.h
+D:/Programming/C++_programming/DiceGame3/Player.h
+iostream
+-
+string
+-
+
+D:/Programming/C++_programming/DiceGame3/Service.h
+
