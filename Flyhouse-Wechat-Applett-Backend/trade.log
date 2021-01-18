@@ -1,0 +1,25 @@
+2020-06-08 23:02:46.550  INFO 12248 --- [main] backend.trade.TradeApplicationTests      : Starting TradeApplicationTests on DESKTOP-E7MG5IC with PID 12248 (started by 86460 in D:\Programming\WeChat_programming\·ºº£±­Ð¡³ÌÐò\Springboot)
+2020-06-08 23:02:46.556  INFO 12248 --- [main] backend.trade.TradeApplicationTests      : No active profile set, falling back to default profiles: default
+2020-06-08 23:02:48.336  INFO 12248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-08 23:02:48.428  INFO 12248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 1 JPA repository interfaces.
+2020-06-08 23:02:49.885  INFO 12248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-08 23:02:50.051  INFO 12248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-06-08 23:02:50.415  INFO 12248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-08 23:02:50.832  INFO 12248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-08 23:02:51.185  INFO 12248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-08 23:02:51.249  INFO 12248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-08 23:02:52.217  INFO 12248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-08 23:02:52.240  INFO 12248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-08 23:02:53.334  WARN 12248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-08 23:02:53.619  INFO 12248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-08 23:02:53.907  INFO 12248 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/trade'
+2020-06-08 23:02:54.231  INFO 12248 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7dea6b06-bd71-4f0a-9e9e-e212df94083a
+
+2020-06-08 23:02:54.712  INFO 12248 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49c947f7, org.springframework.security.web.context.SecurityContextPersistenceFilter@68cb8e52, org.springframework.security.web.header.HeaderWriterFilter@46eb2260, org.springframework.security.web.csrf.CsrfFilter@e2498a3, org.springframework.security.web.authentication.logout.LogoutFilter@6442cf3e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b364f47, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4f1f2f84, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@47b494ce, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@591febcb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40071890, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10280879, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50dd1e3a, org.springframework.security.web.session.SessionManagementFilter@7e017f47, org.springframework.security.web.access.ExceptionTranslationFilter@64df8422, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@33bf2602]
+2020-06-08 23:02:54.781  INFO 12248 --- [main] backend.trade.TradeApplicationTests      : Started TradeApplicationTests in 8.805 seconds (JVM running for 11.054)
+2020-06-08 23:02:55.241  INFO 12248 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-08 23:02:55.242  INFO 12248 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-08 23:02:55.244  INFO 12248 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-08 23:02:55.267  INFO 12248 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
