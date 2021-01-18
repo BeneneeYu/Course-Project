@@ -1,0 +1,42 @@
+#18302010009 沈征宇
+ .pos 0
+ irmovq stack,%rsp
+ call main
+ halt
+ 
+#two block
+ .align 8
+#source
+src:
+ .quad 0x00a
+ .quad 0x0b0
+ .quad 0xc00
+#destination
+dest:
+ .quad 0x111
+ .quad 0x222
+ .quad 0x333
+main:
+ irmovq src,%rdi
+ irmovq dest,%rsi
+ irmovq $3,%rdx
+ call copy_block
+ ret
+#long copy_block(long *src,long *dest,long len)
+copy_block: irmovq $0,%r14
+ irmovq $1,%r13
+ irmovq $8,%r12
+ irmovq $0, %rax
+L13: subq %r14,%rdx
+ jle L15
+ mrmovq (%rdi), %rcx
+ rmmovq %rcx, (%rsi)
+ xorq %rcx, %rax
+ subq %r13, %rdx
+ addq %r12,%rsi
+ addq %r12,%rdi
+ jmp L13
+L15:
+ ret
+ .pos 0x200
+stack:

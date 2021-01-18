@@ -1,0 +1,89 @@
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len words to dst.
+# Return the number of positive words (>0) contained in src.
+#
+# Include your name and ID here.
+# Zhengyu Shen 18302010009
+# Describe how and why you modified the baseline code.
+# 1:In advance,load the values in memory to the processor 
+# which will be used later to avoid hazard
+# 2:Replace the movq and addq instructions with iaddq
+# So that we can kill the unnecessary memory references
+# 3:Unrolling loops can lower loop times,
+# it can run faster for dealing with n elements rather one at a time
+# 4:Change the position of jmp to lower the loss caused by misprediction
+# compute values of both branches
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy:
+
+##################################################################
+# You can modify this portion
+# Loop header
+        iaddq $-4, %rdx		# get len - 4
+	jg Loop                 # if len - 4 >= 0 goto Loop
+
+RESTT:
+	iaddq $4, %rdx          # get original value
+REST:
+	jg NOT_FINISHED         # not finished unless %rdx is greater than 0
+	ret
+NOT_FINISHED:
+	mrmovq (%rdi), %r10		# load *src
+	iaddq $8, %rdi
+	andq %r10, %r10			# test *src
+	jle ADD3			# jump if not greater than 0
+	iaddq $1, %rax			# add the count of postive numbers
+ADD3:	
+	rmmovq %r10, (%rsi)		# save
+	iaddq $8, %rsi
+	iaddq $-1, %rdx
+	jmp REST
+Loop:
+	mrmovq (%rdi), %r10	# read val from src...
+	iaddq $40, %rdi		# src+=5
+	rmmovq %r10, (%rsi) # save *src to *rsi
+	andq %r10, %r10		# test %r10
+	jle ADD1			# if This number is not greater than 0, than not add %rax
+	iaddq $1, %rax		# add the number of postive numbers
+ADD1:	
+	mrmovq -32(%rdi), %r10	# read the second number
+	iaddq $40, %rsi			# dst += 5
+	rmmovq %r10, -32(%rsi)	# save *(src + 1) to *(dst + 1)
+	andq %r10, %r10			# val <= 0?
+	mrmovq -24(%rdi), %r10   # rearrange the instructions to avoid load/use hazzard
+	jle ADD2				# if not, add the count
+	iaddq $1, %rax			# count++
+ADD2:
+	rmmovq %r10, -24(%rsi)
+	andq %r10, %r10
+	mrmovq -16(%rdi), %r10
+	jle ADD4
+	iaddq $1, %rax
+ADD4:
+	rmmovq %r10, -16(%rsi)
+	andq %r10, %r10
+	mrmovq -8(%rdi), %r10
+	jle ADD5
+	iaddq $1, %rax
+ADD5:
+	rmmovq %r10, -8(%rsi)
+	andq %r10, %r10
+	jle ADD6
+	iaddq $1, %rax
+ADD6:
+	iaddq $-5, %rdx			# len -= 5 if(len - 4 > 0) that means len > 4
+	jg Loop					# if so, goto Loop:
+
+	jmp RESTT
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */
