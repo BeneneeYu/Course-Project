@@ -1,0 +1,21 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŸÑÉõ
+j
+java:S1128
+"ORemove this unused import 'com.fasterxml.jackson.annotation.JsonBackReference'.(»Ôœ¿ıÿÿÿÿ
+U
+java:S1128"?Remove this unused import 'com.webproject.backend.entity.User'.(ñƒÜã
+^
+java:S1128"HRemove this unused import 'com.fasterxml.jackson.databind.ObjectMapper'.(´‘¨™
+j
+java:S1128"ORemove this unused import 'com.fasterxml.jackson.core.JsonProcessingException'.(ßÔïÇûÿÿÿÿ
+^
+java:S1128"CRemove this unused import 'com.corundumstudio.socketio.AckRequest'.(ÿ‰öÿüÿÿÿÿ
+M	java:S106/"9Replace this use of System.out or System.err by a logger.(¦Ô¤B
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(¼Üşÿÿÿÿ
+G
+java:S1602I",Remove useless curly braces around statement(µ©üåüÿÿÿÿ
+E
+java:S1068""*Remove this unused "server" private field.(¾àëõøÿÿÿÿ
+N
+java:S1068$"3Remove this unused "passwordEncoder" private field.(¿ì§’ıÿÿÿÿ
