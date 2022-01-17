@@ -1,0 +1,43 @@
+PTSS001, Basic Principle of Marxism, 6, none
+PTSS002, Mao Zedong Thought, 8, none
+FORE001, College English 1, 2, none
+FORE002, College English 2, 2, none
+FORE003, College English 3, 2, none
+MATH001, Advanced Mathematics A, 4, AMATH001
+MATH002, Advanced Mathematics B, 4, none
+MATH003, Advanced Mathematics C, 4, none
+MATH004, Linear Algebra, 3, none
+MATH005, Probability Theory, 4, none
+PHYS001, College Physics A, 4, APHYS001
+PHYS002, College Physics B, 4, none
+PHYS003, College Physics C, 4, none
+COMP001, Data Structure, 3, none
+COMP002, Machine Learning, 3, none
+COMP003, C Programming, 3, none
+COMP004, C++ Programming, 3, none
+COMP005, Python Programming, 3, none
+COMP006, Java Programming, 3, none
+COMP007, Computer Network, 3, none
+COMP008, Computer Virus and Defense, 3, none
+COMP009, Operating System, 3, none
+CHIN010, Dream of the Red Chamber, 2, none
+CHIN011, Water Margin, 2, none
+CHIN012, Journey to the West, 2, none
+ECON010, Economy and Society, 2, none
+LAWS010, History of constitutional civilization, 2, none
+LAWS011, Law and Society, 2, none
+COMP010, Go Programming, 2, none
+COMP011, JavaScript Programming, 2, none
+COMP012, C# Programming, 2, none
+COMP013, Pascal Programming, 2, none
+COMP014, PHP Programming, 2, none
+COMP015, Deep Learning, 2, none
+COMP016, Reinforcement Learning, 2, none
+COMP017, Big Data, 2, none
+COMP018, Computer Vision, 2, none
+COMP019, How to be A Hacker, 2, none
+COMP020, How to be A Hacker: Advanced, 2, none
+COMP021, How to be A Hacker: Master, 2, none
+COMP022, TCP/IP, 2, none
+AMATH001, American Advanced Mathematics A, 4, exchange
+APHYS001, American College Physics A, 4, exchange

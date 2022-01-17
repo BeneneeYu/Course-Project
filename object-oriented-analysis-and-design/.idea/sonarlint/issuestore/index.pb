@@ -1,0 +1,23 @@
+
+F
+TextEditor/src/eng.txt,a\2\a2afc1f994ebe5ea6f6271629576a5a6265d4b24
+F
+TextEditor/src/fra.txt,9\f\9f5f0edaf82526890566109b030ad173c05e3aa9
+X
+(TextEditor/src/checker/SpellChecker.java,0\4\04623329dd79fd41832497289cf499b4e151c7c7
+V
+&TextEditor/src/client/Application.java,6\4\64d1e1a8c8a705b1a414265a150f3b112de88e99
+O
+TextEditor/src/client/Test.java,e\3\e3eac03a32d9bec57c44094a65542e41f5f85ee5
+Y
+)TextEditor/src/commands/MacroCommand.java,2\0\20b8ca144dc62853f562965129ea9a2755b8cc30
+I
+TextEditor/TextEditor.iml,3\3\3379a81b24ebded813e52713f82d11d6aaacf87f
+Q
+!TextEditor/src/filter/Filter.java,c\c\cc401693d2ffabf66a2cd8adaca51ee743007a0b
+U
+%TextEditor/src/filter/TextFilter.java,5\0\50dafca6f2cf35a8853dc5360146fbc46d61c4b8
+T
+$TextEditor/src/structure/UStack.java,5\d\5ddad310ff18ff5cb352898b57ccdb845a48c728
+T
+$TextEditor/src/filter/XMLFilter.java,0\7\0702953cd75c2eeacc34fda34770a8a2f7cf8923

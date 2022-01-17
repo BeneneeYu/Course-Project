@@ -1,0 +1,14 @@
+
+]	java:S125r"<This block of commented-out lines of code should be removed.(©ü„§ıÿÿÿÿ8Á”ĞØÓ/
+V	java:S106¯"9Replace this use of System.out or System.err by a logger.(¿ÆôŒ8ó”ó²Î/
+]	java:S125"<This block of commented-out lines of code should be removed.(³ç‘âüÿÿÿÿ8şº°³Î/
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Çµí‘8ê´—³Î/
+G
+java:S1144«")Remove this unused private "test" method.(‚Ê¸¢8şº°³Î/
+U	java:S106­"9Replace this use of System.out or System.err by a logger.(ÃİÊ#8ó”ó²Î/
+[	java:S106±"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ó”ó²Î/
+]	java:S125i"<This block of commented-out lines of code should be removed.(©ü„§ıÿÿÿÿ8µ´ĞØÓ/
+[	java:S106¢"9Replace this use of System.out or System.err by a logger.(¹ÚÜşÿÿÿÿ8ó”ó²Î/
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Š’ª¾Ò/
