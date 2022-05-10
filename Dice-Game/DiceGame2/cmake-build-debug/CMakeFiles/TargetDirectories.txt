@@ -1,3 +1,0 @@
-D:/Programming/C++_programming/DiceGame2/cmake-build-debug/CMakeFiles/DiceGame2.dir
-D:/Programming/C++_programming/DiceGame2/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Programming/C++_programming/DiceGame2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
